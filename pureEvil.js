@@ -80,7 +80,7 @@
 
 ******************Good Luck legends!!!!!******************
  */
-let hight = 10;
+let hight = 20;
 let shape1 = [];
 let shape2 = [];
 let shape3 = [];
@@ -121,7 +121,7 @@ function rectangle(nHight) {
   let space = " ";
 
   for (let i = 0; i < nHight; i++) {
-    let spacesBefore = space.repeat(nHight / 2);
+    let spacesBefore = space.repeat(nHight / 2 + nHight / 7);
 
     sta = spacesBefore + star + spacesBefore + star + spacesBefore;
 
